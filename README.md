@@ -34,7 +34,10 @@ The QEC circuit is executed on a simulated quantum backend.
  
 To execute the Quantum error Correction for executing on the Rigetti Ankaa-3 Processor, you need:
 Python 3.7+
-AWS Braket SDK (pip install amazon-braket-sdk)
+AWS Braket SDK \
+```bash
+(pip install amazon-braket-sdk)
+```
 Boto3 (pip install boto3)
 NumPy (pip install numpy)
 Matplotlib (pip install matplotlib)
