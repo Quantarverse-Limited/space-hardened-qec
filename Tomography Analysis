@@ -1,1 +1,30 @@
+# Quantum Error Correction Circuit with State Tomography
+# Description
+
+This project demonstrates a quantum error correction (QEC) circuit with two rounds of syndrome extraction. The QEC circuit is tested using state tomography to reconstruct the quantum state after applying the error correction scheme. The implementation is done using Qiskit and simulated on a quantum backend.
+# Code Explanation
+
+**Circuit Creation:**
+
+A quantum circuit with 4 data qubits and 2 ancilla qubits is created.
+
+Logical qubits are entangled using a series of CNOT gates.
+
+The circuit initializes and encodes the state for QEC.
+
+**State Tomography:**
+
+The StateTomography module from qiskit_experiments is used to analyze the quantum state.
+
+The QEC circuit is executed on a simulated quantum backend.
+
+**Simulation:**
+
+The Qiskit Aer qasm_simulator backend is used to simulate the quantum circuit.
+
+The results of the tomography experiment are printed.
+
+# Expected Results
+
+After running the script, the output will include the analysis results from thestate tomography experiment, showing reconstructed quantum state information.
 
