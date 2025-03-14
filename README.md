@@ -9,6 +9,7 @@ This repository contains the implementation and simulation code for space-harden
 - **Analysis tools** for post-selection validation and error type differentiation
 - **Visualization code** for error syndrome distribution
 - **Tomography Analysis** to reconstruct the quantum state after applying the error correction scheme.
+- **Quantum Error Correction Circuit for Rigetti Ankaa-3** designed for execution of  quantum error correction (QEC) circuit on the Rigetti Ankaa-3 quantum processor  
 ## Key Features
 
 - 94.07% error-free operation demonstrated under simulated space radiation conditions
@@ -28,6 +29,16 @@ The implementation uses a custom depolarizing noise model to simulate space radi
 The StateTomography module from qiskit_experiments is used to analyze the quantum state.
 
 The QEC circuit is executed on a simulated quantum backend.
+
+## Requirements
+ 
+To execute the Quantum error Correction for executing on the Rigetti Ankaa-3 Processor, you need:
+Python 3.7+
+AWS Braket SDK (pip install amazon-braket-sdk)
+Boto3 (pip install boto3)
+NumPy (pip install numpy)
+Matplotlib (pip install matplotlib)
+
 
 
 ## Usage
