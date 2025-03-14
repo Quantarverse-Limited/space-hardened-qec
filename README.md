@@ -8,7 +8,7 @@ This repository contains the implementation and simulation code for space-harden
 - **Simulation results** with 1,500,000 shots demonstrating robust error detection capabilities
 - **Analysis tools** for post-selection validation and error type differentiation
 - **Visualization code** for error syndrome distribution
-
+- **Tomography Analysis** to reconstruct the quantum state after applying the error correction scheme.
 ## Key Features
 
 - 94.07% error-free operation demonstrated under simulated space radiation conditions
@@ -22,6 +22,12 @@ The implementation uses a custom depolarizing noise model to simulate space radi
 - 10: X error (2.43%)
 - 01: Z error (2.23%)
 - 11: Y error (1.27%)
+
+## State Tomography
+
+The StateTomography module from qiskit_experiments is used to analyze the quantum state.
+
+The QEC circuit is executed on a simulated quantum backend.
 
 
 ## Usage
